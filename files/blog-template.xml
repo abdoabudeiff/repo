@@ -1,0 +1,26 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<b:template xmlns="http://www.w3.org/1999/xhtml">
+    <b:skin><![CDATA[
+        /* Inline CSS extracted from blog.html */
+    ]]></b:skin>
+    <b:template-skin>
+        <div class="container">
+            <header>
+                <!-- Insert dynamic Blogger header content here -->
+            </header>
+            <main>
+                <b:section id="main" class="blog-content">
+                    <b:widget id="Blog1" type="Blog">
+                        <b:includable id="main">
+                            <!-- Posts dynamically added by Blogger -->
+                        </b:includable>
+                    </b:widget>
+                </b:section>
+            </main>
+            <footer>
+                <!-- Footer from blog.html -->
+            </footer>
+        </div>
+    </b:template-skin>
+</b:template>

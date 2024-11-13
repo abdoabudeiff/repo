@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<b:template xmlns="http://www.w3.org/1999/xhtml" b:version="2.0">
+    <b:defaultwidgetset>
+        <b:widget id="Blog1" type="Blog"/>
+    </b:defaultwidgetset>
+    <b:includable id="post">
+        <html>
+            <head>
+                <title>Blog Post</title>
+                <style>
+                    /* Inline CSS extracted from blog-details.html */
+                    body { font-family: Arial, sans-serif; }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <h1>Post Title</h1>
+                </header>
+                <main>
+                    <b:section id="post-content" class="post-content">
+                        <b:widget id="Blog1" type="Blog">
+                            <b:includable id="main">
+                                <data:post.body/>
+                            </b:includable>
+                        </b:widget>
+                    </b:section>
+                </main>
+                <footer>
+                    <p>Footer content here.</p>
+                </footer>
+            </body>
+        </html>
+    </b:includable>
+</b:template>
