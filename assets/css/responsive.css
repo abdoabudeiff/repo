@@ -210,10 +210,10 @@
 		padding: 20px 0 15px;
 	}
 	.tj-header-area .logo-box {
-		margin-right: 15px;
+		margin-left: 15px;
 	}
 	.tj-header-area .header-button {
-		margin-left: auto;
+		margin-right: auto;
 	}
 	.tj-header-area .header-menu {
 		position: absolute;
