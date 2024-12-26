@@ -12,7 +12,7 @@
 /* Extra Large Devices */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 	.tj-header-area .header-button {
-		margin-left: 35px;
+		margin-right: 35px;
 	}
 	.tj-header-area .header-menu ul {
 		gap: 30px;
@@ -52,7 +52,7 @@
 		padding: 30px 0 15px;
 	}
 	.tj-header-area .logo-box {
-		margin-right: 15px;
+		margin-left: 15px;
 	}
 	.tj-header-area .header-button {
 		margin-left: 20px;
@@ -245,7 +245,6 @@
 		text-transform: uppercase;
 		line-height: 1;
 		padding: 15px 0;
-		letter-spacing: 1px;
 		font-size: 25px;
 	}
 	.tj-header-area .header-menu ul li a::before {
@@ -492,7 +491,7 @@
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
 	.progress-wrap {
-		right: 20px;
+		left: 20px;
 		bottom: 20px;
 	}
 	h1 {
@@ -532,10 +531,10 @@
 		padding: 18px 20px;
 	}
 	.tj-header-area .logo-box {
-		margin-right: 15px;
+		margin-left: 15px;
 	}
 	.tj-header-area .header-button {
-		margin-left: auto;
+		margin-right: auto;
 	}
 	.tj-header-area .header-menu {
 		position: absolute;
@@ -570,14 +569,13 @@
 		text-transform: uppercase;
 		line-height: 1;
 		padding: 10px 0;
-		letter-spacing: 1px;
 		font-size: 22px;
 	}
 	.tj-header-area .header-menu ul li a::before {
 		display: none;
 	}
 	.tj-header-area .mobile-menu ul {
-		max-width: 90%;
+//		max-width: 90%;
 	}
 
 	/* hero section */
@@ -624,6 +622,7 @@
 	.funfact-item .text {
 		margin-top: -15px;
 	}
+.progress-wrap {left: 20px !important;bottom: 30px !important;}
 
 	/* services section */
 	.services-widget .service-item {
